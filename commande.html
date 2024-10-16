@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commande - DRIVE Leroy Merlin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Passez votre commande</h1>
+    </header>
+
+    <section class="order">
+        <h2>Choisissez vos articles</h2>
+        <div class="product-list">
+            <div class="product-item">
+                <h3>Chauffage portable</h3>
+                <img src="chauffage_portable.jpg" alt="Chauffage portable">
+                <p>Prix : 49,99€</p>
+            </div>
+            <div class="product-item">
+                <h3>Peinture murale</h3>
+                <img src="peinture.jpg" alt="Peinture murale">
+                <p>Prix : 24,99€</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="drive">
+        <h2>Choisissez votre point de retrait</h2>
+        <p>Récupérez votre commande au DRIVE Leroy Merlin le plus proche :</p>
+        <label for="drive-location">Lieu :</label>
+        <select id="drive-location">
+            <option value="cergy">Cergy</option>
+            <option value="paris">Paris</option>
+        </select>
+
+        <label for="pickup-time">Heure de retrait :</label>
+        <input type="time" id="pickup-time" name="pickup-time">
+    </section>
+
+    <section class="durable-advice">
+        <h2>Conseil durable</h2>
+        <p>Optez pour des produits écologiques et économisez de l'énergie en choisissant des articles certifiés "durables".</p>
+    </section>
+
+    <footer>
+        <p>DRIVE Leroy Merlin - Commandez en ligne, récupérez au Drive.</p>
+    </footer>
+</body>
+</html>
